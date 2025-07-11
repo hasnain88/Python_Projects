@@ -1,3 +1,4 @@
 FreeSimpleGUI
 Tk
 psycopg2
+gtts

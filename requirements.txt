@@ -3,3 +3,6 @@ Tk # Tkinter Python GUI
 psycopg2 # To Connect python with PostgreSQL
 gtts # Text to Audio Converter 
 bcrypt # for password hashing
+pyqrcode # for QR code generator
+pillow # for QR code Generator
+pypng # To generate PNG file

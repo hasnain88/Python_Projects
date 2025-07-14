@@ -1,4 +1,5 @@
-FreeSimpleGUI
-Tk
-psycopg2
-gtts
+FreeSimpleGUI # Python GUI
+Tk # Tkinter Python GUI
+psycopg2 # To Connect python with PostgreSQL
+gtts # Text to Audio Converter 
+bcrypt # for password hashing

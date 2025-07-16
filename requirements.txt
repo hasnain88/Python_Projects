@@ -7,4 +7,5 @@ pyqrcode # for QR code generator
 pillow # for QR code Generator
 pypng # To generate PNG file
 pytube # For YouTube
-moviepy # 
+moviepy # for Video
+fpdf2 # For PDF converter

@@ -10,3 +10,4 @@ pytube # For YouTube
 moviepy # for Video
 fpdf2 # For PDF converter
 pygame # for game in python
+PyQt6 # For Desktop application (GUI)

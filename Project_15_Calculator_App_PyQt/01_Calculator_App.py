@@ -34,7 +34,7 @@ class Window(QWidget):
         self.equals_buttons.clicked.connect(self.calculate)
         
         self.clear_buttons = QPushButton("C")
-        self.clear_buttons.clicked.connect(self.clear)
+        self.clear_buttons.clicked.connect(self.clear) 
 
         operator_buttons = [QPushButton(op) for op in operator]
         for button in operator_buttons:

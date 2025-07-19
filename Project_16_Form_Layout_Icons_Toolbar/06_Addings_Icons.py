@@ -5,6 +5,7 @@ from PyQt6.QtGui import QPixmap, QAction,QIcon
 from PyQt6.QtCore import Qt
 import sys
 import math
+import os
 
 class Window(QMainWindow):
     def __init__(self):
@@ -17,17 +18,19 @@ class Window(QMainWindow):
         self.setGeometry(100,100,400,300)
 
         toolbar = self.addToolBar("Main Toolbar")   
-
-
-        self.new_action = QAction(QIcon(r"D:\Python_Projects\Project_16_Form_Layout_Icons_Toolbar\icons\new.png"),"New") 
+        
+        self.base_dir = os.path.dirname(__file__)
+        # icon_path = os.path.join(self.base_dir, "icons", "new.png")
+       
+        self.new_action = QAction(QIcon(os.path.join(self.base_dir, "icons", "new.png")),"New") 
         toolbar.addAction(self.new_action)
         toolbar.addSeparator()
 
-        self.open_action = QAction(QIcon(r"D:\Python_Projects\Project_16_Form_Layout_Icons_Toolbar\icons\open.png"),"Open")
+        self.open_action = QAction(QIcon(os.path.join(self.base_dir, "icons", "open.png")),"Open")
         toolbar.addAction(self.open_action)
         toolbar.addSeparator()
         
-        self.save_action = QAction(QIcon(r"D:\Python_Projects\Project_16_Form_Layout_Icons_Toolbar\icons\save.png"),"Save") 
+        self.save_action = QAction(QIcon(os.path.join(self.base_dir, "icons", "save.png")),"Save") 
         toolbar.addAction(self.save_action)
 
 

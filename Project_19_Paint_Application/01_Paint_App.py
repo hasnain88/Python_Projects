@@ -129,7 +129,7 @@ class MainWindow(QMainWindow):
         # Path to icons folder
         pencil_act = QAction(QIcon(os.path.join(self.icon_dir, 'pencil.png')),"Pencil",tool_bar)
         pencil_act.triggered.connect(lambda: canvas.selectTool("pencil"))
-        marker_act = QAction(QIcon(os.path.join(self.icon_dir, 'maeker.png')),"Marker",tool_bar)
+        marker_act = QAction(QIcon(os.path.join(self.icon_dir, 'marker.png')),"Marker",tool_bar)
         marker_act.triggered.connect(lambda: canvas.selectTool("marker"))
         eraser_act = QAction(QIcon(os.path.join(self.icon_dir, 'eraser.png')),"Eraser",tool_bar)
         eraser_act.triggered.connect(lambda: canvas.selectTool("eraser"))

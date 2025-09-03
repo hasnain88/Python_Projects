@@ -11,14 +11,12 @@ moviepy # for Video
 fpdf2 # For PDF converter
 pygame # for game in python
 PyQt6 # For Desktop application (GUI)
-<<<<<<< HEAD
 pyqt6-tools
 sqlite3
 psutil
-=======
 pytest
 bibtexparser
 openpyxl
 pandas
 requests
->>>>>>> 158a0ff60cd68af121f8e52652d9f2150ecc10fb
+speedtest-cli
